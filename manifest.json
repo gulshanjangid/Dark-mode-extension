@@ -1,0 +1,15 @@
+{
+  "name": "Dark Mode",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "scripting"],
+
+  "action": {
+    "default_title": "Enable Dark Mode"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
